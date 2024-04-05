@@ -1,4 +1,9 @@
 <div class="menu-header">
+  <img
+    src="./../../../assets/ab-why-2.png"
+    alt="Logo do restaurante"
+    width="50px"
+  />
   <ul>
     <li *ngFor="let item of menuItems">
       <a [routerLink]="item.route">{{ item.title }}</a>

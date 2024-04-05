@@ -1,0 +1,24 @@
+.menu-header {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  border-bottom: 1px solid #ddb28c96;
+}
+
+.menu-header ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  list-style: none;
+}
+
+.menu-header ul li a {
+  text-decoration: none;
+  color: #fff7ee;
+
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}

@@ -63,6 +63,11 @@
 }
 
 @media (min-width: 1024px) {
+  .home-conteiner {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
   .container-text {
     max-width: 30rem;
   }
